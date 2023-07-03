@@ -1,16 +1,129 @@
 @charset "utf-8";
 /* CSS Document */
-.styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
-.styled-table thead tr {
-    background-color: #009879;
-    color: #ffffff;
-    text-align: left;
+h1
+{
+color: #000000;
+font-size: 1.56em; 
+font-weight: normal;
+line-height: 1.2em; 
+margin: 0; 
+padding: 0;
+page-break-after: avoid;
+page-break-inside: avoid;
+text-align: center;
 }
 
+h2
+{
+color: #000000;
+font-size: 1.56em; 
+font-weight: normal;
+line-height: 1.2em; 
+margin: 0; 
+padding: 0;
+page-break-after: avoid;
+page-break-inside: avoid;
+text-align: left;
+}
+.id
+{
+	text-align-last: center;
+}
+p
+{
+text-align: justify;
+}
+/*
+.ind 
+{
+margin-bottom: 0.2em; 
+margin-top: 0; 
+text-align: justify;
+text-indent: 1em; 
+}
+*/
+a
+{
+color: #3342FF;
+text-decoration: none;
+}
+/*
+a:hover
+{
+ text-decoration: underline;
+}*/
+
+table
+{
+  border-collapse: collapse;
+  border: 1px solid;
+  border-color: #000000;
+  /*style:="overflow-x: auto;"*/
+  width: 100%;
+}
+.col1 {
+    width: 100px; /* Ширина ячейки */
+   }
+.col2 {
+    width: 100px; /* Ширина ячейки */
+   }
+   
+header
+{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+th
+{
+  border: 1px solid;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 2px;
+  text-align: center;
+  background-color: #537AF3;
+  color: white;
+}
+
+td {
+  border: 1px solid black;
+  box-sizing: border-box; 
+  padding: 4px 10px; 
+  text-align: left;
+}
+
+tr
+{
+  padding: 2px 5px;
+}
+
+tr:nth-child(even) 
+{
+  background-color: #f2f2f2;
+}
+
+hover
+{
+  background-color: #ddd;
+}
+/*
+.block1 {
+	position: fixed;
+	left: 15px;
+	top: 1%; 
+    width: 150px; 
+    background: #ccc;
+    padding: 5px;
+    padding-right: 10px; 
+    border: solid 1px black; 
+    float: left;
+   }
+.block2 { 
+	position: fixed;
+	right: 15px;
+	top:1%;
+    width: 150px; 
+    background: #fc0; 
+    padding: 5px; 
+    border: solid 1px black; 
+    float: right;
+   }*/
